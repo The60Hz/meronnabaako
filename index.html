@@ -55,7 +55,7 @@
 
     function handleInteraction() {
       if (!isUnlocked) {
-        let userInput = prompt("Enter Name, Your Name, They're Name, Bahala kana HAHAHAHAH:");
+        let userInput = prompt("Enter Name, Your Name, Their Name, Bahala kana HAHAHAHAH:");
         
         if (userInput === null) return;
 
@@ -71,7 +71,7 @@
       else {
         clickCount++;
         
-        if (clickCount >= 3) {
+        if (clickCount >= 2) {
           secretImgContainer.style.display = "block";
           textElement.style.display = "none";
           textElement.onclick = null; 
